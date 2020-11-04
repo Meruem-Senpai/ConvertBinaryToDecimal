@@ -8,7 +8,7 @@ namespace Bin2Dec
         static void Main(string[] args)
         {
 
-           Console.WriteLine("Введите число в двоичной системе счисления, используя не более 8 симоволов:");
+           Console.WriteLine("Введите число в двоичной системе счисления используя не более 8 симоволов:");
            string StrNumber = Console.ReadLine();
            double number = returnInt(StrNumber);
             Console.WriteLine($"Вы ввели число в двоичной системе: {StrNumber} . Это же число в десятичнной системе: {number}");
